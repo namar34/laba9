@@ -5,7 +5,10 @@
 
 trigger:
 - main
-
+- releases/*
+pr:
+ - master
+ - releases/*
 pool:
   vmImage: 'ubuntu-latest'
 strategy:
